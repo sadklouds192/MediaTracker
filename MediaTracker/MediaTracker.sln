@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker", "MediaTracker\MediaTracker.csproj", "{6BAA1030-194C-48B7-8313-37EF582FFF5A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker.Core", "MediaTracker.Core\MediaTracker.Core.csproj", "{6BAA1030-194C-48B7-8313-37EF582FFF5A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker.DataAccess", "MediaTracker.DataAccess\MediaTracker.DataAccess.csproj", "{0D71EB7E-1B98-4D24-B42F-02E5194439B1}"
 EndProject

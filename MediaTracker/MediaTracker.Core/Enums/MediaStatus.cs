@@ -1,4 +1,4 @@
-namespace MediaTracker.Enums;
+namespace MediaTracker.Core.Enums;
 
 public enum MediaStatus
 {
