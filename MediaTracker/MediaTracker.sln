@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker", "MediaTracker\MediaTracker.csproj", "{6BAA1030-194C-48B7-8313-37EF582FFF5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker.DataAccess", "MediaTracker.DataAccess\MediaTracker.DataAccess.csproj", "{0D71EB7E-1B98-4D24-B42F-02E5194439B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BAA1030-194C-48B7-8313-37EF582FFF5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BAA1030-194C-48B7-8313-37EF582FFF5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BAA1030-194C-48B7-8313-37EF582FFF5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BAA1030-194C-48B7-8313-37EF582FFF5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
