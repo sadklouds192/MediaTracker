@@ -1,3 +1,4 @@
+using MediaTracker.Core.DataModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,34 +10,41 @@ namespace MediaTracker.API.Controllers
     {
         // GET: api/Novels
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<IEnumerable<NovelModel>>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return Ok(new List<NovelModel> 
+            { 
+                new NovelModel { Id = 1, Title = "Lord of The Rings", Author = "J.R.R Tolkien"},
+                new NovelModel { Id = 2, Title = "The Last Wish", Author = "Andrzej Sapkowski"} 
+            });
         }
 
         // GET api/<NovelsController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<NovelModel>> Get(int id)
         {
-            return "value";
+            return new NovelModel { Id = 2, Title = "The Last Wish", Author = "Andrzej Sapkowski" };
         }
 
         // POST api/Novels
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<IActionResult> Post([FromBody] NovelModel novel)
         {
+            return CreatedAtAction(nameof(Get), new { id = 1}, novel);
         }
 
         // PUT api/Novels/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<IActionResult> Put(int id, [FromBody] NovelModel novel)
         {
+            return NoContent();
         }
 
         // DELETE api/Novels/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            return NoContent();
         }
     }
 }
