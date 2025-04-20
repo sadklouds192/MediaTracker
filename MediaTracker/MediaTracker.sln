@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker.Core", "MediaT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker.DataAccess", "MediaTracker.DataAccess\MediaTracker.DataAccess.csproj", "{0D71EB7E-1B98-4D24-B42F-02E5194439B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaTracker.API", "MediaTracker.API\MediaTracker.API.csproj", "{E23561A3-CA76-407B-A07D-4AE7D08EF807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D71EB7E-1B98-4D24-B42F-02E5194439B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23561A3-CA76-407B-A07D-4AE7D08EF807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23561A3-CA76-407B-A07D-4AE7D08EF807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23561A3-CA76-407B-A07D-4AE7D08EF807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23561A3-CA76-407B-A07D-4AE7D08EF807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
