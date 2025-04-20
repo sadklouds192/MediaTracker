@@ -2,9 +2,9 @@ using MediaTracker.Core.DataModels;
 
 namespace MediaTracker.Core.Repositries;
 
-public interface INovelRepositry
+public interface INovelRepository
 {
-    Task<IEnumerable<NovelModel>> GetAllAsync();
+    Task<IEnumerable<NovelModel>> GetNovelsAsync();
     Task<NovelModel> GetNovelIdAsync(int id);
     Task AddNovelAsync(NovelModel novel);
     Task UpdateNovelAsync(NovelModel novel);
